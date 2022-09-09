@@ -18,13 +18,9 @@
             <p>Captions are generally given in the same language as the original content. It includes relevant sound effects or background noises because the intended audience is those who cannot hear the audio for some reasons.</p>
           <video width="400" controls>
             <source src ="assets\videos\dog-video.mp4" type = "video/mp4">
-            <trsck src ="assets\text-tracs\dog-video.vtt" kind = "captions" srclang="en" lable="EN captions">
+            <track src ="assets\text-tracs\dog-video.vtt" kind = "captions" srclang="en" lable="EN captions">
             </video>
-                <iframe> 
-                src = "assets\videos\dog-video.mp4"
-                
-                </iframe>
-          </video>  <!-- TODO: Put the dog video here. Set the width to 400 pixels and include controls -->
+              <!-- TODO: Put the dog video here. Set the width to 400 pixels and include controls -->
             <!-- Include a track tag with the src attribute set to "dog-video.vtt" -->
         </div>
         <div>
@@ -34,8 +30,12 @@
             <p>
                 Obviously, none of us can understand what pigeons are saying, so we'll just make up some subtitles! Create your own time stamps and invent your own dialog!
             </p>
-            <video co
-            <!-- TODO: Put the pigeons in love MP4 video here-->
+            <video width="400" controls>
+                <source src="assets\videos\pigeons-in-love.mp4" type="video/mp4">
+                <track src="assets\text-tracks\pigeons-in-love-english.vvt" kind="subtitles" srclang="en"lable="English Subtitles">
+                <track src="assets\text-tracks\pigeon-in-love-french.vtt" kind="subtitles" srclang="fr"lable="French Subtitles">
+                 </video>
+            <!-- TODO: Put the pigeons in love MP4 video here -->
             <!-- This video should have controls and two track tags (for example, for English AND French subtitles) -->
         </div>
     </main>
